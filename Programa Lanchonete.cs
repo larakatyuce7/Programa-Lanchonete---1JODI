@@ -1,3 +1,53 @@
+                       using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lanches_burlis
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int opcao, opcaolanches, opcaobebidas, opcaocombos;
+
+            Double subtotal = 0;
+
+            do
+
+            {
+                Console.Clear();
+
+                Console.WriteLine("lanches burlis");
+
+                Console.WriteLine("--------------");
+
+                Console.WriteLine("");
+
+                Console.WriteLine("1- lanches e porções");
+
+                Console.WriteLine("2- bebidas");
+
+                Console.WriteLine("3- combos");
+
+                Console.WriteLine("4- finalizar");
+
+                opcao = Convert.ToInt32(Console.ReadLine());
+
+                if (opcao == 1)
+
+                {
+                    do
+
+                    {
+
+                        Console.Clear();
+
+                        Console.WriteLine("novo menu");
+
+                        Console.WriteLine("------Produto -----      -------Preço");
+
                         Console.WriteLine("1- hamburguer simples ---------- 5.00");
 
                         Console.WriteLine("2- Hamburguer duplo ----------- 7,50 ");
